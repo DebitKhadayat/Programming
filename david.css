@@ -3,10 +3,24 @@
 }
 body{
     background-color: rgb(102, 182, 232);
+    padding:0;
+    margin:0;
 }
 .navbar{
     margin:0;
     padding:0;
+}
+#preloader{
+    height:100vh;
+    width:100%;
+    background: black url(loader.gif) no-repeat center center;
+    background-size: 35%;
+    position:fixed;
+    z-index: 100;
+
+}
+body{
+    margin:8px;
 }
 ul{
     list-style:none;
@@ -14,6 +28,8 @@ ul{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    border-radius: 6px 6px 0 0;
+    z-index: 100;
 }
 a{
     font-size: 1.5em;
@@ -27,8 +43,10 @@ li{
     justify-content: space-between;
 }
 .jumbotron{
-    background-color:lightblue;
+    background-color:rgb(171, 234, 255);
     padding:3px;
+    z-index: 100;
+    border-radius: 0 0 6px 6px;
 }
 .jumbotron h1, .jumbotron h2{
     margin:0;
@@ -36,21 +54,55 @@ li{
     padding-left:10px;
     padding-top:10px;
 }
+.jumbotron p{
+    padding:10px;
+}
 h2{
+    margin:0;
     margin-bottom: 3vh;
 }
 li:hover{
-   background-color:maroon;
+   background-color:rgb(166, 8, 8);
 }
 img{
     display:block;
+    width:30%;
+    height:40%;
     margin-left:auto;
     margin-right:auto;
     border-radius:100px;
     box-shadow: 2px 2px 5px rgb(39, 39, 39);
+    filter: brightness(1.35);
 }
+.contact{
+    background-color: rgb(197, 248, 248);
+    border-radius: 6px;
+    padding: 5px;
+    margin-top: 1.5vh;
+}
+input{
+    margin:5px;
+    padding: 5px;
+    border-color: #efefef;
+    border-style: none;
+    border-radius: 3px;
+}
+input[type=text]:focus {
+    border: 3px solid #555;
+    
+  }
 .footer{
-    margin-top: 3vh;
+    margin-top: 1.5vh;
     display:block;
     text-align: center;
+    background-color: rgb(249, 239, 239);
+    border-radius: 6px;
+}
+@media screen and (max-width:512px) {
+    img{
+        margin-top: 8px;
+        width: 50vw;
+        height: 45vh;
+        filter:brightness(1.35);
+    }    
 }
