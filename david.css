@@ -53,4 +53,6 @@ img{
     margin-top: 3vh;
     display:block;
     text-align: center;
+    background-color: lightcyan;
+    padding:10px;
 }
