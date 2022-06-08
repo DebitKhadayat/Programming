@@ -98,8 +98,8 @@ input[type=text]:focus {
 @media screen and (max-width:512px) {
     img{
         margin-top: 8px;
-        width: 50vw;
-        height: 45vh;
+        width: 40vw;
+        height: 35vh;
         filter:brightness(1.35);
     }    
 }
