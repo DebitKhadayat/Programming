@@ -19,9 +19,6 @@ body{
     z-index: 100;
 
 }
-body{
-    margin:8px;
-}
 ul{
     list-style:none;
     background-color: rgb(29, 29, 89);
