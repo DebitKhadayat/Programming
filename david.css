@@ -14,7 +14,7 @@ body{
     height:100vh;
     width:100%;
     background: black url(loader.gif) no-repeat center center;
-    background-size: 35%;
+    background-size: 20%;
     position:fixed;
     z-index: 100;
 
